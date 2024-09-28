@@ -1,0 +1,146 @@
+:root {
+  --primary-color: #ffce1a;
+  --text-color: #000000;
+  --light-grey: #eaeaea;
+  --light-grey-text: #828282;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", Nunito Sans,
+    sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  overflow-x: hidden;
+}
+
+.nav-container {
+  max-width: 100%;
+  padding: 3rem 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-search {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  column-gap: 5rem;
+}
+form {
+  display: flex;
+  align-items: center;
+  column-gap: 0.3rem;
+  width: 100%;
+  flex-direction: row-reverse;
+  background-color: var(--light-grey);
+  padding: 0.3rem 1rem;
+  border-radius: 8px;
+}
+
+form > input {
+  outline: none;
+  border: none;
+  width: 100%;
+  background-color: var(--light-grey);
+  height: 100%;
+}
+
+input ::placeholder {
+  columns: var(--light-grey-text);
+}
+
+.hamburger-menu {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.cart-favorites {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.basket-btn {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+  padding: 0.3rem 1rem;
+  background-color: var(--primary-color);
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.head-line {
+  display: flex;
+  max-width: 100%;
+  padding: 3rem 5rem;
+  justify-content: space-between;
+}
+
+.head-note {
+  width: 30rem;
+}
+h1 {
+  font-size: 2.5rem;
+  padding-top: 3rem;
+}
+
+p {
+  font-size: 1rem;
+  padding-top: 2rem;
+  padding-right: 8rem;
+  padding-bottom: 2.5rem;
+}
+
+.sub-button {
+  background-color: var(--primary-color);
+  border: none;
+  font-size: 0.6rem;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 0.5rem 3rem;
+}
+
+.front-img {
+  display: flex;
+  padding-left: 45px;
+  width: 30rem;
+  box-sizing: border-box;
+}
+.image1 {
+  margin-right: -7rem;
+  z-index: 10;
+}
+.image2 {
+  margin-right: -7rem;
+  z-index: 7;
+}
+
+.product {
+  max-width: 100%;
+  padding: 2rem 5rem;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-between;
+}
+.display1 {
+  display: flex;
+}
+
+.display2 {
+  display: flex;
+}
+
+.display-note2 {
+  display: block;
+}
